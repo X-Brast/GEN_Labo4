@@ -59,11 +59,11 @@ public class OrdersWriter {
 
     private String getColorFor(Product product) {
         switch (product.getColor()) {
-            case 1:
+            case Blue:
                 return "blue";
-            case 2:
+            case Red:
                 return "red";
-            case 3:
+            case Yellow:
                 return "yellow";
             default:
                 return "no color";
