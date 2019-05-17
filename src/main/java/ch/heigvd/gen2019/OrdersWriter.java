@@ -57,10 +57,6 @@ public class OrdersWriter {
         return sb.append("]}").toString();
     }
 
-    private String getSizeFor(Product product) {
-        return product.getSize().toString();
-    }
-
     private String getColorFor(Product product) {
         switch (product.getColor()) {
             case 1:
